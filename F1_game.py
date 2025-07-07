@@ -14,7 +14,7 @@ def williams():
   rand = random.random()
   if rand < 0.1:
     time.sleep(2)
-    print("Willaims did not finish their car in time for the season. You're out. Back to F2. ")
+    print("Williams did not finish their car in time for the season. You're out. Back to F2.")
     sys.exit()
   else:
     team = "williams"
@@ -35,8 +35,6 @@ def williams():
   standing = standings(team, points)
 
   print(standing)
-  
-
 
 def haas():
   rand = random.random()
@@ -66,12 +64,11 @@ def haas():
   print(standing)
 
 
-
 def alfaromeo():
   rand = random.random()
   if rand < 0.1:
     time.sleep(2)
-    print ("Oh no! Kimi has changed his mind, and wants to keep his hobby going for yet another year, there won't be a seat left for you. Back to F2")
+    print ("Oh no! Kimi has changed his mind, and wants to keep his hobby going for yet another year, there won't be a seat left for you. Back to F2.")
     sys.exit()
   else:
     team = "alfa romeo"
